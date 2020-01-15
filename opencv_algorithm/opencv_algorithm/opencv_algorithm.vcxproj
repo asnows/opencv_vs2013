@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="12.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{89E7105B-29DD-49C9-AE79-5FC7A10DC4CF}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>opencv_algorithm</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v120</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="D:\opencv\opencv-2.4.9_environment.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_CONSOLE;_LIB;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <SDLCheck>true</SDLCheck>
+    </ClCompile>
+    <Link>
+      <SubSystem>Console</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="file_read.cpp" />
+    <ClCompile Include="fpga_canny.cpp" />
+    <ClCompile Include="fpga_dft.cpp" />
+    <ClCompile Include="fpga_gamma.cpp" />
+    <ClCompile Include="fpga_hist.cpp" />
+    <ClCompile Include="fpga_module.cpp" />
+    <ClCompile Include="fpga_imgsharp.cpp" />
+    <ClCompile Include="fpga_rgb2gray.cpp" />
+    <ClCompile Include="fpga_sift\draw_feat.cpp" />
+    <ClCompile Include="fpga_sift\fpga_sift.cpp" />
+    <ClCompile Include="fpga_sift\get_extrPoint.cpp" />
+    <ClCompile Include="fpga_sift\get_hessian_3D.cpp" />
+    <ClCompile Include="fpga_sift\get_InvMatrix.cpp" />
+    <ClCompile Include="fpga_sift\remove_edgeByHessian.cpp" />
+    <ClCompile Include="get_gaus_kernel.cpp" />
+    <ClCompile Include="img_compare.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="fpga_gaus.cpp" />
+    <ClCompile Include="opencv_dispMutPic.cpp" />
+    <ClCompile Include="opencv_laplacian.cpp" />
+    <ClCompile Include="opencv_module.cpp" />
+    <ClCompile Include="fpga_sobel.cpp" />
+    <ClCompile Include="opencv_sift.cpp" />
+    <ClCompile Include="opencv_sobel.cpp" />
+    <ClCompile Include="opencv_sobel_sharp.cpp" />
+    <ClCompile Include="sift\imgfeatures.cpp" />
+    <ClCompile Include="sift\kdtree.cpp" />
+    <ClCompile Include="sift\match.cpp" />
+    <ClCompile Include="sift\minpq.cpp" />
+    <ClCompile Include="sift\sift.cpp" />
+    <ClCompile Include="sift\siftfeat.cpp" />
+    <ClCompile Include="sift\utils.cpp" />
+    <ClCompile Include="sift\xform.cpp" />
+    <ClCompile Include="sift_c\sift_c.cpp" />
+    <ClCompile Include="UnsharpMasking.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="fpga_module.h" />
+    <ClInclude Include="fpga_sift\fpga_sift.h" />
+    <ClInclude Include="include.h" />
+    <ClInclude Include="opencv_module.h" />
+    <ClInclude Include="sift\imgfeatures.h" />
+    <ClInclude Include="sift\kdtree.h" />
+    <ClInclude Include="sift\minpq.h" />
+    <ClInclude Include="sift\sift.h" />
+    <ClInclude Include="sift\utils.h" />
+    <ClInclude Include="sift\xform.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

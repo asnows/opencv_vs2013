@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\sift">
+      <UniqueIdentifier>{05e70e8e-0fb9-4c62-beb5-f9d4bb210b9b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\fpga_sift">
+      <UniqueIdentifier>{6cb336a0-79ad-47e7-94f1-96e5aabac1df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\sift_c">
+      <UniqueIdentifier>{9694fd00-d2a0-4700-a3d9-8dc809b927b4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="include.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="fpga_module.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="opencv_module.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="sift\imgfeatures.h">
+      <Filter>源文件\sift</Filter>
+    </ClInclude>
+    <ClInclude Include="sift\kdtree.h">
+      <Filter>源文件\sift</Filter>
+    </ClInclude>
+    <ClInclude Include="sift\minpq.h">
+      <Filter>源文件\sift</Filter>
+    </ClInclude>
+    <ClInclude Include="sift\sift.h">
+      <Filter>源文件\sift</Filter>
+    </ClInclude>
+    <ClInclude Include="sift\utils.h">
+      <Filter>源文件\sift</Filter>
+    </ClInclude>
+    <ClInclude Include="sift\xform.h">
+      <Filter>源文件\sift</Filter>
+    </ClInclude>
+    <ClInclude Include="fpga_sift\fpga_sift.h">
+      <Filter>源文件\fpga_sift</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_module.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_module.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_imgsharp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_sobel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_sobel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_laplacian.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_sobel_sharp.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_gaus.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="img_compare.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="UnsharpMasking.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_gamma.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_hist.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_dft.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_rgb2gray.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_canny.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="file_read.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="get_gaus_kernel.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_sift.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_sift\fpga_sift.cpp">
+      <Filter>源文件\fpga_sift</Filter>
+    </ClCompile>
+    <ClCompile Include="opencv_dispMutPic.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_sift\get_hessian_3D.cpp">
+      <Filter>源文件\fpga_sift</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_sift\get_InvMatrix.cpp">
+      <Filter>源文件\fpga_sift</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_sift\get_extrPoint.cpp">
+      <Filter>源文件\fpga_sift</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_sift\remove_edgeByHessian.cpp">
+      <Filter>源文件\fpga_sift</Filter>
+    </ClCompile>
+    <ClCompile Include="sift\sift.cpp">
+      <Filter>源文件\sift</Filter>
+    </ClCompile>
+    <ClCompile Include="sift\imgfeatures.cpp">
+      <Filter>源文件\sift</Filter>
+    </ClCompile>
+    <ClCompile Include="sift\kdtree.cpp">
+      <Filter>源文件\sift</Filter>
+    </ClCompile>
+    <ClCompile Include="sift\minpq.cpp">
+      <Filter>源文件\sift</Filter>
+    </ClCompile>
+    <ClCompile Include="sift\siftfeat.cpp">
+      <Filter>源文件\sift</Filter>
+    </ClCompile>
+    <ClCompile Include="sift\utils.cpp">
+      <Filter>源文件\sift</Filter>
+    </ClCompile>
+    <ClCompile Include="sift\xform.cpp">
+      <Filter>源文件\sift</Filter>
+    </ClCompile>
+    <ClCompile Include="sift\match.cpp">
+      <Filter>源文件\sift</Filter>
+    </ClCompile>
+    <ClCompile Include="sift_c\sift_c.cpp">
+      <Filter>源文件\sift_c</Filter>
+    </ClCompile>
+    <ClCompile Include="fpga_sift\draw_feat.cpp">
+      <Filter>源文件\fpga_sift</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

@@ -1,0 +1,47 @@
+﻿生成启动时间为 2019/10/10/周四 9:50:33。
+     1>项目“E:\WorkSpace\opencv_vs2013\opencv_algorithm\opencv_algorithm\opencv_algorithm.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _LIB /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp
+         main.cpp
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"E:\WorkSpace\opencv_vs2013\opencv_algorithm\Debug\opencv_algorithm.exe" /INCREMENTAL /NOLOGO opencv_ml2413d.lib opencv_calib3d2413d.lib opencv_contrib2413d.lib opencv_core2413d.lib opencv_features2d2413d.lib opencv_flann2413d.lib opencv_gpu2413d.lib opencv_highgui2413d.lib opencv_imgproc2413d.lib opencv_legacy2413d.lib opencv_objdetect2413d.lib opencv_ts2413d.lib opencv_video2413d.lib opencv_nonfree2413d.lib opencv_ocl2413d.lib opencv_photo2413d.lib opencv_stitching2413d.lib opencv_superres2413d.lib opencv_videostab2413d.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:\WorkSpace\opencv_vs2013\opencv_algorithm\Debug\opencv_algorithm.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:\WorkSpace\opencv_vs2013\opencv_algorithm\Debug\opencv_algorithm.lib" /MACHINE:X86 Debug\file_read.obj
+         Debug\fpga_canny.obj
+         Debug\fpga_dft.obj
+         Debug\fpga_gamma.obj
+         Debug\fpga_hist.obj
+         Debug\fpga_module.obj
+         Debug\fpga_imgsharp.obj
+         Debug\fpga_rgb2gray.obj
+         Debug\draw_feat.obj
+         Debug\fpga_sift.obj
+         Debug\get_extrPoint.obj
+         Debug\get_hessian_3D.obj
+         Debug\get_InvMatrix.obj
+         Debug\remove_edgeByHessian.obj
+         Debug\get_gaus_kernel.obj
+         Debug\img_compare.obj
+         Debug\main.obj
+         Debug\fpga_gaus.obj
+         Debug\opencv_dispMutPic.obj
+         Debug\opencv_laplacian.obj
+         Debug\opencv_module.obj
+         Debug\fpga_sobel.obj
+         Debug\opencv_sift.obj
+         Debug\opencv_sobel.obj
+         Debug\opencv_sobel_sharp.obj
+         Debug\imgfeatures.obj
+         Debug\kdtree.obj
+         Debug\match.obj
+         Debug\minpq.obj
+         Debug\sift.obj
+         Debug\siftfeat.obj
+         Debug\utils.obj
+         Debug\xform.obj
+         Debug\sift_c.obj
+         Debug\UnsharpMasking.obj
+         opencv_algorithm.vcxproj -> E:\WorkSpace\opencv_vs2013\opencv_algorithm\Debug\opencv_algorithm.exe
+     1>已完成生成项目“E:\WorkSpace\opencv_vs2013\opencv_algorithm\opencv_algorithm\opencv_algorithm.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.00
